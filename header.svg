@@ -1,0 +1,101 @@
+<svg viewBox="0 0 1200 360" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Soft Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+
+    <!-- Deep Navy Base Gradient -->
+    <linearGradient id="navy-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07152E" />
+      <stop offset="100%" stop-color="#0F294D" />
+    </linearGradient>
+
+    <!-- Royal Electric Blue Gradient -->
+    <linearGradient id="royal-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8" />
+      <stop offset="100%" stop-color="#1E40AF" />
+    </linearGradient>
+
+    <!-- Medium Sapphire Blue Gradient -->
+    <linearGradient id="sapphire-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+
+    <!-- Soft Sky/Cyan Highlight Gradient -->
+    <linearGradient id="cyan-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#60A5FA" />
+    </linearGradient>
+
+    <!-- Gold Accent Gradient -->
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5A059" />
+      <stop offset="50%" stop-color="#E5C178" />
+      <stop offset="100%" stop-color="#B89355" />
+    </linearGradient>
+
+    <!-- White Line Fade Gradient -->
+    <linearGradient id="white-line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="360" fill="url(#bg-grad)"/>
+
+  <!-- High-Precision Flowing Top Blue Waves -->
+  <g id="waves">
+    <!-- Layer 1: Deep Navy Base Wave (Left Corner Sweep) -->
+    <path d="M 0,0 L 1200,0 L 1200,30 C 1050,8 920,42 780,22 C 620,3 480,48 320,20 C 180,2 80,72 0,122 Z" fill="url(#navy-grad)" />
+
+    <!-- Layer 2: Royal Electric Blue Wave -->
+    <path d="M 0,0 L 1200,0 L 1200,42 C 1020,18 880,55 720,28 C 540,2 360,65 200,32 C 90,14 30,50 0,62 Z" fill="url(#royal-grad)" fill-opacity="0.94" />
+
+    <!-- Layer 3: Medium Sapphire Blue Ribbon -->
+    <path d="M 320,0 L 1200,0 L 1200,62 C 1080,34 960,72 840,46 C 680,20 560,56 320,0 Z" fill="url(#sapphire-grad)" fill-opacity="0.82" />
+
+    <!-- Layer 4: Translucent Sky Blue Overlay -->
+    <path d="M 580,0 L 1200,0 L 1200,88 C 1120,66 1020,44 920,64 C 800,84 720,22 580,0 Z" fill="url(#cyan-grad)" fill-opacity="0.55" />
+
+    <!-- Layer 5: Pale Ice Blue Outer Ribbon -->
+    <path d="M 780,0 L 1200,0 L 1200,108 C 1150,88 1080,64 1000,82 C 920,100 860,36 780,0 Z" fill="#93C5FD" fill-opacity="0.4" />
+
+    <!-- Gold Wave Accent Line -->
+    <path d="M 0,78 C 140,32 300,75 480,38 C 640,2 820,48 1000,24" fill="none" stroke="url(#gold-grad)" stroke-width="1.2" opacity="0.65" />
+
+    <!-- Crisp White Stroke Line (Left Wave Accent) -->
+    <path d="M 0,110 C 90,62 200,10 360,27 C 520,44 680,14 820,32" fill="none" stroke="url(#white-line-grad)" stroke-width="2.4" />
+
+    <!-- Thin Steel Accent Line (Right Wave Accent) -->
+    <path d="M 660,20 C 800,68 960,18 1160,64" fill="none" stroke="#94A3B8" stroke-width="1.2" opacity="0.5" />
+  </g>
+
+  <!-- Typography Section -->
+
+  <!-- Eyebrow Text -->
+  <text x="600" y="146" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" letter-spacing="6px" fill="#C5A059">A PROJECT COLLABORATION HANDBOOK</text>
+
+  <!-- Accent Pill Mark under Eyebrow -->
+  <rect x="580" y="158" width="40" height="3" rx="1.5" fill="url(#royal-grad)" />
+
+  <!-- Main Title -->
+  <text x="600" y="214" text-anchor="middle" font-family="'Playfair Display', Georgia, 'Times New Roman', Times, serif" font-size="48" font-weight="700" fill="#0F172A" letter-spacing="-0.5px">Smart Disaster</text>
+  <text x="600" y="262" text-anchor="middle" font-family="'Playfair Display', Georgia, 'Times New Roman', Times, serif" font-size="48" font-weight="700" fill="#0F172A" letter-spacing="-0.5px">Management Network</text>
+
+  <!-- Gold Diamond Rule -->
+  <line x1="450" y1="292" x2="568" y2="292" stroke="url(#gold-grad)" stroke-width="1.5" stroke-linecap="round" />
+  <!-- Outer Diamond -->
+  <polygon points="600,283 609,292 600,301 591,292" fill="none" stroke="url(#gold-grad)" stroke-width="1.5" />
+  <!-- Inner Diamond -->
+  <polygon points="600,287 605,292 600,297 595,292" fill="url(#gold-grad)" />
+  <line x1="632" y1="292" x2="750" y2="292" stroke="url(#gold-grad)" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Subtitle -->
+  <text x="600" y="322" text-anchor="middle" font-family="Georgia, 'Times New Roman', Times, serif" font-style="italic" font-size="14.5" fill="#475569">An intelligent and reliable disaster response network that enables</text>
+  <text x="600" y="342" text-anchor="middle" font-family="Georgia, 'Times New Roman', Times, serif" font-style="italic" font-size="14.5" fill="#475569">real-time communication, coordination, and resource management during emergency situations.</text>
+</svg>
